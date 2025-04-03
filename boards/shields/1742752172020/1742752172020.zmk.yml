@@ -1,0 +1,11 @@
+
+file_format: "1"
+id: 1742752172020
+name: 1742752172020
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
