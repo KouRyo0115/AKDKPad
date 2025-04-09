@@ -31,7 +31,7 @@
 
         defualt_layer {
             bindings = <
-&kp ESCAPE        &kp F1        &kp F2        &kp F3       &kp F4  &kp F5  &kp F6  &kp BACKSPACE
+&kp ESCAPE        &kp F1        &kp F2        &kp F3       &kp F4  &kp F5  &kp F6  &kp BSPC
 &kp TAB           &kp A         &kp S         &kp D        &kp F   &kp G   &kp H   &kp ENTER
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C        &kp V   &kp B   &kp N
 &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &mo 2   &mo 3
