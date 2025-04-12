@@ -21,7 +21,7 @@
         macro_raramenu: macro_raramenu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp M &kp S &kp S &kp B &kp F &kp TAB &kp W &kp M &kp S &kp S &kp B &kp F &kp TAB &kp M &kp N &kp U &kp X &kp N0 &kp N0 &kp N1 &kp C &kp TAB &kp TAB &kp R &kp A &kp R &kp A &kp M &kp O &kp T &kp O &kp ENTER>;
+            bindings = <&kp W &kp M &kp S &kp S &kp B &kp F &kp TAB &kp W &kp M &kp S &kp S &kp B &kp F &kp TAB &kp M &kp N &kp U &kp X &kp N0 &kp N0 &kp N1 &kp C &kp TAB &kp TAB &kp R &kp A &kp R &kp A &kp M &kp O &kp T &kp O>;
             label = "MACRO_RARAMENU";
         };
     };
@@ -31,7 +31,7 @@
 
         defualt_layer {
             bindings = <
-&kp ESCAPE        &kp F1        &kp F2        &kp F3       &kp F4       &kp F10          &kp F12  &kp BSPC
+&kp ESCAPE        &kp F1        &kp F2        &kp F3       &kp F4       &kp F5           &kp F12  &kp BSPC
 &kp TAB           &kp A         &kp S         &kp D        &kp F        &kp G            &kp H    &kp ENTER
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C        &kp V        &kp B            &kp N
 &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 ENTER  &lt 3 BACKSPACE
@@ -49,9 +49,9 @@
 
         layer_2 {
             bindings = <
-&trans       &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(F4)   &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&new_macro2  &trans           &trans  &trans  &trans  &trans  &trans
+&trans       &trans           &trans  &trans  &trans  &trans               &trans                 &trans
+&kp LA(F4)   &trans           &trans  &trans  &trans  &kp RC(RA(PAGE_UP))  &kp RC(RA(PAGE_DOWN))  &trans
+&new_macro2  &trans           &trans  &trans  &trans  &trans               &trans
 &new_macro1  &macro_raramenu  &trans  &trans  &trans  &trans
             >;
         };
