@@ -3,29 +3,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        new_macro1: new_macro1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp INT_MUHENKAN &kp R &kp A &kp R &kp A &kp M &kp O &kp T &kp O &kp TAB &kp S &kp LS(B) &kp F &kp LS(W) &kp LS(INT_RO) &kp N1 &kp N6 &kp N4 &kp N2 &kp N8 &kp N2 &kp N7 &kp ENTER>;
-            label = "NEW_MACRO1";
-        };
-
-        new_macro2: new_macro2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp INT_MUHENKAN &kp S &kp LS(B) &kp F &kp LS(W) &kp LS(INT_RO) &kp N1 &kp N6 &kp N4 &kp N2 &kp N8 &kp N2 &kp N7>;
-            label = "NEW_MACRO2";
-        };
-
-        macro_raramenu: macro_raramenu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp W &kp M &kp S &kp S &kp B &kp F &kp TAB &kp W &kp M &kp S &kp S &kp B &kp F &kp TAB &kp M &kp N &kp U &kp X &kp N0 &kp N0 &kp N1 &kp C &kp TAB &kp TAB &kp R &kp A &kp R &kp A &kp M &kp O &kp T &kp O>;
-            label = "MACRO_RARAMENU";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
